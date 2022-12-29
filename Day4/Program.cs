@@ -8,7 +8,7 @@ namespace Day4
     {
         static void Main(string[] args)
         {
-            string path = @"AdventDay4.txt";
+            string path = @"../../../AdventDay4.txt";
             int rangesThatFullyCoversOtherRanges = 0;
             int overlappedRanges = 0;
 

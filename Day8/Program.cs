@@ -10,7 +10,7 @@ namespace Day8
         static void Main(string[] args)
         {
             //Exercise 1
-            string path = @"Day8.txt";
+            string path = @"../../../Day8.txt";
             List<List<Tree>> treesColumns = new List<List<Tree>>();
             List<List<Tree>> treesRows2 = new List<List<Tree>>();
             int treesColumnsCount = treesColumns.Count();

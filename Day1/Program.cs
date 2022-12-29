@@ -11,7 +11,7 @@ namespace Day1
         {
             //Exercise 1
 
-            var path = @"caloriesNumber.txt";
+            var path = @"../../../caloriesNumber.txt";
             var caloriesSums = GetElfCalories(path);
             int maxCalories = caloriesSums.Max();
             Console.WriteLine(maxCalories);

@@ -7,7 +7,7 @@ namespace Day7
     {
         static void Main(string[] args)
         {
-            string path = @"Day7.txt";
+            string path = @"../../../Day7.txt";
             string contentFolderSymbol = "ls";
             string goToDirectorySign = "cd";
             string subdirectorySymbol = "dir";

@@ -13,7 +13,7 @@ namespace Day5
             int cratesListsNumber = 0;
             List<List<char>> crates = new List<List<char>>();
             List<List<char>> cratesExercise2 = new List<List<char>>();
-            string path = @"AdventDay5.txt";
+            string path = @"../../../AdventDay5.txt";
 
             using (StreamReader sr = File.OpenText(path))
             {

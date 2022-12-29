@@ -12,7 +12,7 @@ namespace Day2
             int paperNumber = 2;
 
             //Exercise 1
-            string path = @"adventDay2.txt";
+            string path = @"../../../adventDay2.txt";
             string line;
             int points = 0;
             using (StreamReader sr = File.OpenText(path))

@@ -9,7 +9,7 @@ namespace Day6
         static void Main(string[] args)
         {
             //Exercise 1
-            string path = @"Day6.txt";
+            string path = @"../../../Day6.txt";
             int markerLength = 4;
             string characters = GetAllCaracters();
             int markerStartIndex = FindStartIndexOfSequenceWithoutDuplicatesLong(markerLength);
